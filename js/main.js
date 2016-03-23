@@ -4,7 +4,9 @@ $(document).ready(function(){
 
         // Instantiate MixItUp:
 
-        $('#gallery').mixItUp();
+        $('#gallery').mixItUp({layout: {
+            display: 'inline-block'
+        }});
 
     });
 });

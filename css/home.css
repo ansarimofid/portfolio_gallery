@@ -24,10 +24,10 @@ html {
 
 #gallery {
   text-align: center; }
-  #gallery .title {
+  #gallery > .title {
     display: inline-block;
     margin-bottom: 40px; }
-    #gallery .title h1 {
+    #gallery > .title h1 {
       font-weight: lighter;
       font-size: 4em;
       border: 1px solid #000;
@@ -58,11 +58,51 @@ html {
       #gallery .items-container .items .mix {
         margin: 25px 25px 25px 25px;
         display: none;
-        width: 250px;
-        height: 250px;
-        border: 1px solid #000; }
-        #gallery .items-container .items .mix img {
-          width: 250px;
-          height: 170px; }
+        width: 240px;
+        height: 240px;
+        overflow: hidden; }
+        #gallery .items-container .items .mix .main {
+          width: 240px;
+          height: 160px;
+          overflow: hidden;
+          position: relative; }
+          #gallery .items-container .items .mix .main img {
+            width: 100%; }
+          #gallery .items-container .items .mix .main .desc {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px 20px 12px 20px;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            opacity: 0;
+            transition: 0.7s cubic-bezier(0, 0, 0, 0.83); }
+            #gallery .items-container .items .mix .main .desc:hover {
+              opacity: 1; }
+            #gallery .items-container .items .mix .main .desc .text {
+              color: white;
+              line-height: 1.4;
+              max-height: 90px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            #gallery .items-container .items .mix .main .desc .view a {
+              display: inline-block;
+              color: white;
+              border: 1px solid white;
+              text-decoration: none;
+              padding: 5px 8px; }
+        #gallery .items-container .items .mix .details {
+          margin-top: 10px;
+          line-height: 1.4; }
+          #gallery .items-container .items .mix .details .title {
+            font-size: 1.5em; }
+          #gallery .items-container .items .mix .details .skills {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 0.9em; }
 
 /*# sourceMappingURL=home.css.map */
