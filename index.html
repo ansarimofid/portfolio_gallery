@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Kamal Awasthi</title>
+    <title>Project Showcase</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
@@ -11,30 +11,37 @@
 <body id="home">
 <!-- Main Wrapper Starts -->
     <div class="wrapper">
-    <!-- Header Starts -->
-    	<header>
-    	<!-- Nav Starts -->
-    		<nav>
-    			<ul>
-    				<li><a href="" title="">Home</a></li>
-    				<li><a href="" title="">Blog</a></li>
-    				<li><a href="" title="">Softwares</a></li>
-    			</ul>
-    		</nav>
-    		<!-- Nav Ends -->
-    	</header>
-    	<!-- Header Ends -->
+        <div id="gallery">
+            <div class="title">
+                <h1>Portfolio</h1>
+            </div>
 
-    	<!-- Hero Section Starts -->
-    	<section id="hero">
-    		
-    	</section>
-    	<!-- Hero Secion Ends -->
+            <div class="filter-container">
+                <div class="filter-buttons">
+                    <div class="filter" data-filter="all">All</div>
+                    <div class="filter" data-filter=".mockups">Mockups</div>
+                    <div class="filter" data-filter=".websites">Websites</div>
+                    <div class="filter" data-filter=".pens">Pens</div>
+                    <div class="filter" data-filter=".graphics">Graphics</div>
+                </div>
+            </div>
+            <div class="items-container">
+                <div class="items">
+                    <div class="mix websites" data-myorder="4">web</div>
+                    <div class="mix mockups" data-myorder="2">mock</div>
+                    <div class="mix websites" data-myorder="1">web</div>
+                    <div class="mix pens" data-myorder="5">pens</div>
+                    <div class="mix graphics" data-myorder="3">grpa</div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Main Wrapper Ends -->
 
     <!-- Script Starts -->
     <script src="js/jquery.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/main.js"></script>
     <!-- Script Ends -->
 </body>
 

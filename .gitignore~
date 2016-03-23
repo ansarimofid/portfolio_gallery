@@ -1,0 +1,6 @@
+.idea
+bower_components
+node_modules
+.sass-cache/
+include/some_constants.php
+dynamic/
