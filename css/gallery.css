@@ -5,13 +5,13 @@
   font-style: normal; }
 @font-face {
   font-family: 'Raleway';
-  src: url(../fonts/Raleway/Raleway-Bold);
+  src: url(../fonts/Raleway/Raleway-Bold.ttf);
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: 'Raleway';
   src: url(../fonts/Raleway/Raleway-Light.ttf);
-  font-weight: lighter;
+  font-weight: 300;
   font-style: normal; }
 html {
   width: 100%;
@@ -57,7 +57,7 @@ html {
     text-align: left; }
     #gallery .items-container .items {
       margin-top: 40px;
-      width: 950px;
+      width: 880px;
       justify-content: flex-start; }
       #gallery .items-container .items .mix {
         margin: 25px 25px 25px 25px;
@@ -113,4 +113,23 @@ html {
             font-size: 0.9em;
             overflow: hidden; }
 
-/*# sourceMappingURL=home.css.map */
+@media (min-width: 650px) {
+  .items {
+    width: 590px !important; }
+
+  .filter-container {
+    font-size: 0.75em !important; }
+
+  #gallery > .title {
+    font-size: 0.75em !important; } }
+@media (min-width: 750px) {
+  .filter-container {
+    font-size: 1em !important; }
+
+  #gallery > .title {
+    font-size: 1em !important; } }
+@media (min-width: 940px) {
+  .items {
+    width: 880px !important; } }
+
+/*# sourceMappingURL=gallery.css.map */

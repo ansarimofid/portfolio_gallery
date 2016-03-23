@@ -3,4 +3,4 @@ bower_components
 node_modules
 .sass-cache/
 scss/
-home.css.map
+css/gallery.css.map
