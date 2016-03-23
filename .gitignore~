@@ -2,5 +2,5 @@
 bower_components
 node_modules
 .sass-cache/
-include/some_constants.php
-dynamic/
+scss/
+css/home.css.map

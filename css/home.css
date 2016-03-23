@@ -106,9 +106,11 @@ html {
           margin-top: 10px;
           line-height: 1.4; }
           #gallery .items-container .items .mix .details .title {
-            font-size: 1.5em; }
+            font-size: 1.5em;
+            overflow: hidden; }
           #gallery .items-container .items .mix .details .skills {
             color: rgba(0, 0, 0, 0.8);
-            font-size: 0.9em; }
+            font-size: 0.9em;
+            overflow: hidden; }
 
 /*# sourceMappingURL=home.css.map */
