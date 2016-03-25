@@ -2,6 +2,6 @@
 bower_components
 node_modules
 .sass-cache/
-scss/
+scss/style.scss
 css/gallery.css.map
 css/style.css.map
