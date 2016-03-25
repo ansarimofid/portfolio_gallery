@@ -4,3 +4,4 @@ node_modules
 .sass-cache/
 scss/
 css/gallery.css.map
+css/style.css.map

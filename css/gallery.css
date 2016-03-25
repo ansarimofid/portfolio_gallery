@@ -1,36 +1,14 @@
-@font-face {
-  font-family: 'Raleway';
-  src: url(../fonts/Raleway/Raleway-Regular.ttf);
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Raleway';
-  src: url(../fonts/Raleway/Raleway-Bold.ttf);
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Raleway';
-  src: url(../fonts/Raleway/Raleway-Light.ttf);
-  font-weight: 300;
-  font-style: normal; }
-html {
-  width: 100%;
-  height: 100%;
-  font-family: 'Raleway', sans-serif; }
-
-#home {
-  width: 100%;
-  height: 100%; }
-
 #gallery {
-  text-align: center; }
+  text-align: center;
+  min-height: 100%; }
   #gallery > .title {
     display: inline-block;
     margin-bottom: 40px; }
     #gallery > .title h1 {
+      color: #0d2436;
       font-weight: lighter;
       font-size: 4em;
-      border: 1px solid #000;
+      border: 1px solid #0d2436;
       padding: 10px 30px; }
   #gallery .filter-container {
     display: block;
@@ -38,18 +16,19 @@ html {
     #gallery .filter-container .filter-buttons {
       display: inline-flex; }
       #gallery .filter-container .filter-buttons .filter {
+        color: #0d2436;
         font-size: 1em;
         cursor: pointer;
         display: inline-block;
         padding: 20px 35px;
         margin: 0;
-        border: 1px solid black;
+        border: 1px solid #0d2436;
         border-right: 0;
         transition: 0.3s; }
         #gallery .filter-container .filter-buttons .filter:last-child {
-          border-right: 1px solid black; }
+          border-right: 1px solid #0d2436; }
         #gallery .filter-container .filter-buttons .filter.active {
-          background-color: #000;
+          background-color: #0d2436;
           color: white; }
   #gallery .items-container {
     display: flex;
@@ -83,7 +62,7 @@ html {
             top: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.85);
+            background-color: rgba(13, 36, 59, 0.85);
             opacity: 0;
             transition: 0.7s cubic-bezier(0, 0, 0, 0.83); }
             #gallery .items-container .items .mix .main .desc.desc-only {
@@ -109,11 +88,11 @@ html {
             font-size: 1.5em;
             overflow: hidden; }
           #gallery .items-container .items .mix .details .skills {
-            color: rgba(0, 0, 0, 0.8);
+            color: rgba(13, 36, 59, 0.8);
             font-size: 0.9em;
             overflow: hidden; }
 
-@media (min-width: 650px) {
+@media screen and (min-width: 650px) {
   .items {
     width: 590px !important; }
 
@@ -122,13 +101,13 @@ html {
 
   #gallery > .title {
     font-size: 0.75em !important; } }
-@media (min-width: 750px) {
+@media screen and (min-width: 750px) {
   .filter-container {
     font-size: 1em !important; }
 
   #gallery > .title {
     font-size: 1em !important; } }
-@media (min-width: 940px) {
+@media screen and (min-width: 940px) {
   .items {
     width: 880px !important; } }
 
