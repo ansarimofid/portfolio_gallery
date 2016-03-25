@@ -1,6 +1,0 @@
-.idea
-bower_components
-node_modules
-.sass-cache/
-scss/
-home.css.map
